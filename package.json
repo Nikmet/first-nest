@@ -20,7 +20,10 @@
         "test:e2e": "jest --config ./test/jest-e2e.json",
         "prisma:push": "bunx --bun prisma db push",
         "prisma:gen": "bunx --bun prisma generate",
+<<<<<<< HEAD
         "postinstall": "bunx --bun prisma generate",
+=======
+>>>>>>> f7be18575fe6d135cd4de0333c7ec01ec57fd4ef
         "prisma:go": "bunx --bun prisma db push && bunx --bun prisma generate"
     },
     "dependencies": {
