@@ -20,6 +20,7 @@
         "test:e2e": "jest --config ./test/jest-e2e.json",
         "prisma:push": "bunx --bun prisma db push",
         "prisma:gen": "bunx --bun prisma generate",
+        "prisma:studio": "bunx --bun prisma studio",
         "postinstall": "bunx --bun prisma generate",
         "prisma:go": "bunx --bun prisma db push && bunx --bun prisma generate"
     },
@@ -29,15 +30,12 @@
         "@nestjs/core": "^11.0.1",
         "@nestjs/mapped-types": "*",
         "@nestjs/platform-express": "^11.0.1",
-        "@nestjs/typeorm": "^11.0.0",
         "@prisma/client": "^7.2.0",
         "@prisma/config": "^7.2.0",
         "class-transformer": "^0.5.1",
         "class-validator": "^0.14.2",
-        "pg": "^8.16.3",
         "reflect-metadata": "^0.2.2",
-        "rxjs": "^7.8.1",
-        "typeorm": "^0.3.27"
+        "rxjs": "^7.8.1"
     },
     "devDependencies": {
         "@eslint/eslintrc": "^3.2.0",
